@@ -1,7 +1,9 @@
 class Car 
   attr_reader :model, :make, :year
   attr_accessor :heating
+
 @@car_count=0
+  
   def initialize(model,make,year)
   @model = model
   @make = make 
@@ -11,6 +13,7 @@ end
 
 def self.car_count
   @@car_count
+
 end
 
 toyota = Car.new("Camry", "Toyota", "1998")
