@@ -1,24 +1,10 @@
 class Car 
-  attr_reader
+  attr_reader :model :make :year
+  attr_accessor :heating
   def initialize(model,make,year)
   @model = model
   @make = make 
   @year = year
-  end
-   def model 
-    @model
-  end
-  def make
-    @make
-  end
-  def year
-    @year
-  end
-  def heating=(heating)
-    @heating=heating
-  end
-  def heating
-    @heating
 end
 end
 
