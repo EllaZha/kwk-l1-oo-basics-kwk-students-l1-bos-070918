@@ -11,7 +11,7 @@ class Car
   @@car_count+=1
 end
 
-def self.car_count
+def self.count
   @@car_count
 
 end
