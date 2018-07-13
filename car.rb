@@ -38,4 +38,4 @@ new_toyota.heating="heating seats"
 
 puts "This is my #{new_toyota.model}. It was built in #{new_toyota.year} and is a #{new_toyota.make} and has #{new_toyota.heating}."
 
-Car.count 
+puts Car.count 
