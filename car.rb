@@ -2,13 +2,13 @@ class Car
   attr_reader :model, :make, :year
   attr_accessor :heating
 
-@@car_count = 0
+@@car_count=0
   
   def initialize(model,make,year)
   @model = model
   @make = make 
   @year = year
-  @@car_count += 1
+  @@car_count+=1
 end
 
 def self.car_count
