@@ -1,4 +1,5 @@
 class Car 
+  attr_reader
   def initialize(model,make,year)
   @model = model
   @make = make 
