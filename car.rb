@@ -13,7 +13,7 @@ end
 
 def self.count
   @@car_count
-
+end
 end
 
 toyota = Car.new("Camry", "Toyota", "1998")
