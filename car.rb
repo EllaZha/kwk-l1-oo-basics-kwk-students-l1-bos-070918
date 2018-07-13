@@ -2,7 +2,7 @@ class Car
   attr_reader :model, :make, :year
   attr_accessor :heating
 
-@@car_count=0
+@@car_count = 0
   
   def initialize(model,make,year)
   @model = model
